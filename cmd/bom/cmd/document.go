@@ -92,4 +92,5 @@ func init() {
 
 	documentCmd.AddCommand(outlineCmd)
 	documentCmd.AddCommand(licenseCmd)
+	documentCmd.AddCommand(packageCmd)
 }
